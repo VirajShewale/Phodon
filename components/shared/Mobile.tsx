@@ -18,7 +18,7 @@ const Mobile = () => {
   return (
     <header className='header'>
         <Link href="/" className='flex items-center gap-2 md:py-2'>
-            <Image src="/assets/images/logo-text.svg" alt='logo' width={180} height={28}/>
+            <Image src="/assets/images/phodon.png" alt='logo' width={180} height={28}/>
         </Link>
         <nav className='flex gap-2'>
             <SignedIn>
@@ -30,7 +30,7 @@ const Mobile = () => {
                     </SheetTrigger>
                     <SheetContent className='sheet-content sm:w-64'>
                         <>
-                            <Image src="assets/images/logo-text.svg" alt='logo' width={152} height={23}/>
+                            <Image src="/assets/images/phodon.png" alt='logo' width={152} height={23}/>
 
                             <ul className='header-nav_elements'>
                                 {navLinks.map((link) => {
