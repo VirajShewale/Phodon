@@ -26,7 +26,7 @@ const Sidebar = () => {
                             const isActive = link.route === pathname
 
                             return (
-                                <li key={link.route} className={`sidebar-nav_eleent group ${isActive ? 'bg-purple-gradient text-white' : 'text-gray-700'}`}>
+                                <li key={link.route} className={`sidebar-nav_element group ${isActive ? 'bg-purple-gradient text-white' : 'text-gray-700'}`}>
                                     <Link className='sidebar-link' href={link.route}>
                                         <Image src={link.icon} alt='logo' width={24} height={24} className={`${isActive && 'brigthness-200'}`}></Image>
                                         {link.label}
@@ -42,7 +42,7 @@ const Sidebar = () => {
                             const isActive = link.route === pathname
 
                             return (
-                                <li key={link.route} className={`sidebar-nav_eleent group ${isActive ? 'bg-purple-gradient text-white' : 'text-gray-700'}`}>
+                                <li key={link.route} className={`sidebar-nav_element group ${isActive ? 'bg-purple-gradient text-white' : 'text-gray-700'}`}>
                                     <Link className='sidebar-link' href={link.route}>
                                         <Image src={link.icon} alt='logo' width={24} height={24} className={`${isActive && 'brigthness-200'}`}></Image>
                                         {link.label}
